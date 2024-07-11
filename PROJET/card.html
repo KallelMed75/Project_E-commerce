@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KallelStyle.</title>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/Kalle-Logo.svg" class="logo" alt=""></a>
+
+       
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active"  href="card.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-log-out-circle'></i></a>
+            </ul>
+        </div>
+        <div id="mobile" >
+            <a href="card.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu' ></i>
+            
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        
+        <h2>#Card</h2>
+       
+    </section>
+
+
+    <section id="card" class="section-p1" >
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a id="remove" href="#"><i style="color: rgb(239, 14, 14); font-size: 17px; " class='bx bx-x-circle'></i></a></td>
+                    <td><img id="prodimg" src="" alt="product"></td>
+                    <td><p id="prodname">Product Name</p></td>
+                    <td ><span id="prodprice">0</span> TND</td>
+                    <td><span id="prodquantity">0</span></td>
+                    
+                    <td><span id="prodtotal">0</span> TND</td>
+                </tr>
+                <!--
+                <tr>
+                    <td><a href="#"><i class='bx bx-x-circle'></i></a></td>
+                    <td><img  src="products/f2.jpg" alt="product"></td>
+                    <td><p>Product Name</p></td>
+                    <td>78 TND</td>
+                    <td><input type="number" value="1" min="1" max="10"></td>
+                    <td>78 TND</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class='bx bx-x-circle'></i></a></td>
+                    <td><img  src="products/f3.jpg" alt="product"></td>
+                    <td><p>Product Name</p></td>
+                    <td>78 TND</td>
+                    <td><input type="number" value="1" min="1" max="10"></td>
+                    <td>78 TND</td>
+                </tr>
+                -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="card-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+            <input type="text" placeholder="Enter Your Coupon ">
+            <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Card Totals</h3>
+            <table>
+                <tr>
+                    <td>Card Subtotal</td>
+                    <td><span id="subtot">0 </span> TND</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong id="total">0</strong> TND</td>
+                </tr>
+            </table>
+            <button class="normal">Check-Out</button>
+        </div>
+    </section>
+
+
+
+
+
+    
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1" >
+        <div class="col">
+            <img  src="img/Kalle-Logo.svg" class="logo logo2" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 22 Masinissa, Sidi Hassin, Tunis</p>
+            <p><strong>Phone:</strong> +216 29972442</p>
+            <p><strong>Email:</strong> kalle.tn@gmail.com</p>
+            <p><strong>Hours</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-tiktok' ></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="pay/app.jpg" alt="">
+                <img src="pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2024 Kalle | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    
+
+
+
+   
+
+
+    <script src="scriptcard.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
